@@ -1,0 +1,44 @@
+.main-body{
+    text-align: center;
+    font-size: 10px;
+    font-weight: bold;
+    font-size: 2rem;
+    margin-top: 7rem;
+    
+}
+
+
+.Increment{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+
+    
+   
+}
+
+button{
+    
+    color: tomato;
+    background-color: black;
+    font-size: 1rem;
+    border-radius: 9px;
+    height: 5rem;
+    width: 20rem;
+
+}
+
+button:hover{
+    background-color: tomato;
+    color: black;
+    cursor: pointer;
+    transition: 0.4s;
+
+}
+
+.display{
+    font-size: 3rem;
+    justify-content: center;
+    margin-left: 38rem;
+}
+
