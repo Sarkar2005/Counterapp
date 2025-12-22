@@ -42,3 +42,9 @@ button:hover{
     margin-left: 38rem;
 }
 
+.reset{
+    position: center;
+    text-align: center;
+    /* margin-top: 3rem; */
+    padding: 3rem;
+}
