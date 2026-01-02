@@ -1,32 +1,31 @@
-let s=document.querySelector("#plues")
-let m= document.querySelector("#minios")
-let d=document.querySelector(".display")
+let s = document.querySelector("#plues");
+let m = document.querySelector("#minios");
+let d = document.querySelector(".display");
+let re=document.querySelector("#reset");
 
+s.addEventListener("click", increment);
+m.addEventListener("click", decrement);
+re.addEventListener("click",rese);
 
-s.addEventListener("click",increment)
-m.addEventListener("click",decrement)
+function increment() {
+  d.textContent = Number(d.textContent);
 
-function increment(){
-    d.textContent=Number(d.textContent)
-   
-    if (d.textContent>=20){
-        d.style.color='green';
-    }
-   else{
-     
-   }
-    d.textContent++
+  if (d.textContent >= 20) {
+    d.style.color = "green";
+  } else {
+  }
+  d.textContent++;
 }
 
-function decrement(){
-
-if (d.textContent<=20){
-        d.style.color='red';
-    }
-else{
-
+function decrement() {
+  if (d.textContent <= 20) {
+    d.style.color = "red";
+  } else {
+  }
+  d.textContent--;
 }
-    d.textContent--
-} 
 
+function rese(){
+  d.textContent="0";
+}
 
